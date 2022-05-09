@@ -4,8 +4,8 @@ Congratulation for enrolling in the exciting world of programming! This document
 
 ## Step 1: Download Python
 
-Visit this link [https://www.python.org/downloads/](https://www.python.org/downloads/) and download the latest version of Python. At the time of the 
-preparing this document, the latest version is 3.10.4. It might be different when you will download it.
+Visit this link [https://www.python.org/downloads/](https://www.python.org/downloads/) and download the latest version of Python. At the time of
+preparing this document, the latest version was 3.10.4. It might be higher when you will download it.
 
 ![download Python](/media/download.png)
 
@@ -13,9 +13,9 @@ preparing this document, the latest version is 3.10.4. It might be different whe
 
 ## Step 2: Download PyCharm
 
-PyCharm is one of the best IDEs for Python development. You will download the community version and it is free to download.
+PyCharm is one of the best IDEs for Python development. You will download the community version which is free to download and use.
 
-Visit this link [https://www.jetbrains.com/pycharm/download/#section=windows](https://www.jetbrains.com/pycharm/download/#section=windows) and download the community version.
+Visit this link [https://www.jetbrains.com/pycharm/download/#section=windows](https://www.jetbrains.com/pycharm/download/#section=windows) to download the community version.
 
 ![download PyCharm](/media/download-pycharm.png)
 
@@ -50,7 +50,7 @@ You can take these following steps to create a Python project in PyCharm.
 
 ---
 
-### B: Click on the `New Project` icon
+### B: Click on the `New Project` button
 
 ![New project](/media/new_project.png)
 
@@ -74,7 +74,7 @@ You can take these following steps to create a Python project in PyCharm.
 
 ---
 
-### F: Write some Python code. Once done, right-click on the Python file from the left window and select `Run`
+### F: Write some Python code. Once done, right-click on the Python file from the `Project` tab and select `Run`
 
 ![new project 5](/media/new_project_5.png)
 
@@ -84,8 +84,11 @@ You can take these following steps to create a Python project in PyCharm.
 
 ![new project 6](/media/new_project_6.png)
 
+Well done! You now know how to write programs using Python in PyCharm IDE.
 ---
-(end)
+<p align="center">
+--- (end) ---
+</p>
 
 
 
