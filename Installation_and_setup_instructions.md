@@ -85,7 +85,7 @@ You can take these following steps to create a Python project in PyCharm.
 ![new project 6](/media/new_project_6.png)
 
 Well done! You now know how to write programs using Python in PyCharm IDE.
----
+
 <p align="center">
 --- (end) ---
 </p>
