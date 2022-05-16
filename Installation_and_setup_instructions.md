@@ -4,8 +4,7 @@ Congratulation for enrolling in the exciting world of programming! This document
 
 ## Step 1: Download Python
 
-Visit this link [https://www.python.org/downloads/](https://www.python.org/downloads/) and download the latest version of Python. At the time of
-preparing this document, the latest version was 3.10.4. It might be higher when you will download it.
+Visit this link [https://www.python.org/downloads/](https://www.python.org/downloads/) and download the latest version of Python. At the time of this writing, the latest version is 3.10.4. It might be higher when you will download it.
 
 ![download Python](/media/download.png)
 
@@ -84,7 +83,21 @@ You can take these following steps to create a Python project in PyCharm.
 
 ![new project 6](/media/new_project_6.png)
 
-Well done! You now know how to write programs using Python in PyCharm IDE.
+Well done! You now know how to write programs using Python in PyCharm IDE. Here are some keyboard shortcuts for PyCharm.
+
+### PyCharm keyboard shortcuts
+
+---
+1. Action: `Shift Shift`
+2. Run: `Alt+Shift+F10`
+3. Quick fix: `Alt+Enter`
+4. Comment/uncomment: `Ctrl+/`
+5. Duplicate lines: `Ctrl+D`
+6. Moving block up/down: `Ctrl+Shift+🠁/🠃`
+7. Search/replace: `Ctrl+F/ Ctrl+R`
+8. Search everywhere/replace everywhere: `Ctrl+Shift+F/ Ctrl+Shift+R`
+9. Indent/unintended: `Tab/ Shift Tab`
+10. Add carets to the end of each line in the selected block: `Alt+Shift+G`
 
 <p align="center">
 --- (end) ---
