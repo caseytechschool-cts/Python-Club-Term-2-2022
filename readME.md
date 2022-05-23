@@ -19,8 +19,8 @@ look at the following list for options.
 4. Create mathematical animations
    1. [manim](https://www.manim.community/)
 
-There are many more useful packages are out there. You may need to do a quick research to
-find out appropriate packages for your application.
+There are many more useful packages out there. You may need to do a quick research to
+find out appropriate packages for your application, if you wish to build one in the future.
 
 ### Distributing your application
 You have developed an amazing Windows application, and you can run it anytime from your `pyCharm` project.
