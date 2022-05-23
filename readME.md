@@ -29,4 +29,9 @@ It would be even exciting if you could share it with your friends, families and 
 You will use [pyInstaller](https://pyinstaller.org/en/stable/) to build a distributable EXE which you can share with anyone[^1]
 ; even if they do not have Python in their machine.
 
+### Week by week progress
+- [Week 1](week_1): Gentle Python introduction (print, input, data types and f-string)
+- [Week 2](week_2): Introduction to GUI (install and start using the PySimpleGUI package)
+
+
 [^1]: only for Windows machine
