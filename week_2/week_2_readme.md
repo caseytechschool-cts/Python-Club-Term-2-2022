@@ -1,14 +1,12 @@
 # Building Graphical User Interface (GUI) using Python
 
-This week we focus on how to build GUI using Python. There are many ways we could do it, some of them are harder then others, 
-but each way comes with its pros and cons. Python's default library for GUI is `Tkinter` and it
-ships with it. However, we will use another package/library which is easier to use for new users.
+This week we focus on how to build GUI using Python. There are many ways we can do it, some of them are harder then others, 
+but each way comes with its pros and cons. Python's default library for GUI is `Tkinter` which is a great package and is actively used by the Python community. However, we will use `PySimpleGUI` for it's easy to use command list.
 
 ## Installing `pysimplegui`
 1. Make sure you have internet connection.
 2. Open an existing or new project in `pyCharm` and click on the `Terminal` tab from the bottom tray.
-3. Copy and paste the following in the terminal and press `Enter`
-   `pip install pysimplegui`
+3. Copy and paste `pip install pysimplegui` in the terminal and press `Enter`
 4. Wait until the installation process is finished.
 
 ## Activities
@@ -19,6 +17,9 @@ ships with it. However, we will use another package/library which is easier to u
 
 For an example, please take a look the following design
 ![hand design](../media/hand-design.jpg)
+
+The generated GUI
+![generated GUI](../media/drone-screenshot.png)
 
 ## An example from the [Pysimplegui](https://pysimplegui.readthedocs.io/en/latest/) website
 **Step 1 - Sketch the GUI**
