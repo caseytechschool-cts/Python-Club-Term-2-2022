@@ -15,7 +15,7 @@ but each way comes with its pros and cons. Python's default library for GUI is `
 3. Label different section.
 4. Translate the design into code.
 
-For an example, please take a look the following design
+For an example, please take a look at the following design
 ![hand design](../media/hand-design.jpg)
 
 The generated GUI
