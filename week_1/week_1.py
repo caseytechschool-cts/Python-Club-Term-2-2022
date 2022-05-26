@@ -7,7 +7,7 @@
 # print(name)
 # print(place)
 
-# print(name, place, sep=',')
+# print(name, place, sep=',')rtr
 
 # taking input from user
 number_one = input("Enter the first number: ")
