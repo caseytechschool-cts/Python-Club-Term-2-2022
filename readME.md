@@ -3,7 +3,7 @@
 Hello everyone! This is your club to learn Python programming language by building GUI
 applications for Windows platform.
 
-You will use [PySimpleGUI](https://pysimplegui.readthedocs.io/en/latest/) package to build GUI applications. More on that can be found in [Week 2](week_2/week_2_readme.md) directory.
+You will use [PySimpleGUI](https://pysimplegui.readthedocs.io/en/latest/) package to build GUI applications. More on that can be found in [Week 2](week_2/readme.md) directory.
 
 If you would like to build other specific applications (e.g., 2D or 3D games, math simulation, physics simulation etc.) have a 
 look at the following list for options.
