@@ -21,5 +21,16 @@ Copy the following line and paste it into the PyCharm terminal and press Enter
 
 ## Task 3: Getting the postcode data
 
-## Task 4: Passing the postcode data to the weather API
+```python
+import requests
+url = f'http://v0.postcodeapi.com.au/suburbs/{postcode}.json'
+response = requests.get(url)
+data = response.json()
+```
 
+## Task 4: Passing the postcode data to the weather API
+```python
+url = f'http://api.weatherapi.com/v1/current.json?key={key}&q={latitude},{longitude}&aqi=no'
+response = requests.get(url)
+data = response.json()
+```
