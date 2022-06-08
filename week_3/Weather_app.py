@@ -1,4 +1,5 @@
 import PySimpleGUI as sg
+from Layout import layout_builder
 
 
 # Postcode API: http://v0.postcodeapi.com.au/suburbs/{postcode}.json
@@ -7,7 +8,12 @@ import PySimpleGUI as sg
 
 
 layout = layout_builder()
-window = sg.Window(title='Weather app', layout=layout)
+window = sg.Window(title='', layout=layout,
+                   background_color='#27504B',
+                   titlebar_icon='',
+                   use_custom_titlebar=True,
+                   titlebar_background_color='#27504B'
+                   )
 
 while True:
     event, values = window.read()
