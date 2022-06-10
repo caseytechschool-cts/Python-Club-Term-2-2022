@@ -299,7 +299,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-./Final_project
+Final_project
 key.py
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,python,pycharm
