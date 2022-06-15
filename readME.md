@@ -32,6 +32,12 @@ You will use [pyInstaller](https://pyinstaller.org/en/stable/) to build a distri
 ### Week by week progress
 - [Week 1](week_1): Gentle Python introduction (print, input, data types and f-string)
 - [Week 2](week_2): Introduction to GUI (install and start using the PySimpleGUI package)
-- [Week 3](week_3): Converting design into code; getting data through API calls
+- [Week 3](week_3): Converting design into code; getting user's location using API call
+- [Week 4](week_4): Getting weather data using an API call
+- [Week 5](week_5): Refresh the window, make `EXE`
+
+### The application flow chart
+
+![application flow chart](Whiteboard.png)
 
 [^1]: only for Windows machine
