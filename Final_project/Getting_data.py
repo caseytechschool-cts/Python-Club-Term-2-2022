@@ -1,5 +1,5 @@
 import requests
-from key import key
+# from key import key
 
 
 def search_postcode(postcode):
@@ -13,6 +13,7 @@ def search_postcode(postcode):
 
 
 def current_weather(latitude, longitude):
+    key = '7aa275ff85904a07a5a93655222605'
     url = f'http://api.weatherapi.com/v1/current.json?key={key}&q={latitude},{longitude}&aqi=no'
     response = requests.get(url)
     return response.json()

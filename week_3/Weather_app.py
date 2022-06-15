@@ -1,5 +1,6 @@
 import PySimpleGUI as sg
 from Layout import layout_builder
+from backend import search_postcode, current_weather
 
 
 # Postcode API: http://v0.postcodeapi.com.au/suburbs/{postcode}.json
@@ -23,6 +24,17 @@ while True:
     if event == '-button-':
         postcode = sg.popup_get_text(message='Enter a postcode',
                                      default_text='')
+
+        data = search_postcode(postcode)
+        lat, lng = data[0]['latitude'], data[0]['longitude']
+
+        key = '7aa275ff85904a07a5a93655222605'
+        data = current_weather(key, lat, lng)
+        # print(data)
+        location = data['location']['name']
+        weather_text = data['current']['condition']['text']
+
+        print(location, weather_text)
 
 window.close()
 
