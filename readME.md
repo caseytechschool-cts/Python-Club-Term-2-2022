@@ -36,8 +36,25 @@ You will use [pyInstaller](https://pyinstaller.org/en/stable/) to build a distri
 - [Week 4](week_4): Getting weather data using an API call
 - [Week 5](week_5): Refresh the window, make `EXE`
 
+Congratulation all of you for your hard job towards the last five weeks. For the future
+reference, here is the brief details what you have built.
+
 ### The application flow chart
 
 ![application flow chart](Whiteboard.png)
+
+You have designed a GUI using the PySimpleGUI Python package. It has two windows; one main window
+to display weather information and a popup window to take the postcode from the user.
+
+Once the application receives the postcode, it uses an API http://v0.postcodeapi.com.au/suburbs/{postcode}.json
+to get the user's location (latitude and longitude) and passes this information
+to another API http://api.weatherapi.com/v1/current.json?key={api_key}&q={latitude,longitude}&aqi=no to
+retrieve the weather information. At the end, the weather information is displayed
+on the main window.
+
+### Application download link
+
+Please find the link of the application to download
+https://github.com/caseytechschool-cts/Python-Club-Term-2-2022/releases/download/v1.0.0/Weather_app.exe
 
 [^1]: only for Windows machine
