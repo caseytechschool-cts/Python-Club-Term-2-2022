@@ -57,4 +57,9 @@ on the main window.
 Please find the link of the application to download
 https://github.com/caseytechschool-cts/Python-Club-Term-2-2022/releases/download/v1.0.0/Weather_app.exe
 
+### Future improvement
+
+1. Exception and error handling
+2. Showing weather forecast
+3. 
 [^1]: only for Windows machine

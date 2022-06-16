@@ -37,7 +37,3 @@ while True:
         print(location, weather_text)
 
 window.close()
-
-
-
-
