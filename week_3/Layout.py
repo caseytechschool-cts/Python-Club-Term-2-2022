@@ -7,8 +7,7 @@ def layout_builder():
                 [sg.Text(text='Cloudy', font='Courier 12', text_color='#BCC9C2', size=(30, 3),
                          key='-weather_oneline-', background_color='#27504B')]
                 ]
-    top_image = sg.Image(key='-weather_image-', background_color='#27504B',
-                         filename='download.png')
+    top_image = sg.Image(key='-weather_image-', background_color='#27504B')
 
     middle_temp = [[sg.Text(text='19.5°C', font='Verdana 30 bold', text_color='#BCC9C2', key='-temp-',
                             background_color='#27504B')]]

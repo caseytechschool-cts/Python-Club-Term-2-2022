@@ -1,6 +1,7 @@
 import PySimpleGUI as sg
 from Layout import layout_builder
 from backend import search_postcode, current_weather
+from Update_window import update_window
 
 
 # Postcode API: http://v0.postcodeapi.com.au/suburbs/{postcode}.json
@@ -34,6 +35,9 @@ while True:
         location = data['location']['name']
         weather_text = data['current']['condition']['text']
 
+        # window['-location-'].update(value=location)
+        # window['-weather_oneline-'].update(value=weather_text)
+        update_window(window, data)
         print(location, weather_text)
 
 window.close()
