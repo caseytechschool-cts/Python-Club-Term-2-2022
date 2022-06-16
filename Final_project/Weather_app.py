@@ -2,6 +2,7 @@ import PySimpleGUI as sg
 from Layout import layout_builder
 from Getting_data import search_postcode, current_weather
 from Update_window import update_window
+import geocoder
 
 
 # Postcode API: http://v0.postcodeapi.com.au/suburbs/{postcode}.json
@@ -16,11 +17,24 @@ def main():
                        titlebar_background_color='#27504B')
     second_window = False
     multiple_postcode = False
+    run_once = True
+
+    g = geocoder.ipinfo('me')
+    lat, lng = g.latlng
+    print(lat, lng)
+    weather_data = current_weather(lat, lng)
+    print(weather_data)
 
     while True:
-        event, values = window.read()
+        event, values = window.read(timeout=10)
         if event == sg.WIN_CLOSED:
             break
+
+
+        # weather_data = current_weather(lat, lng)
+        if run_once:
+            update_window(window, weather_data)
+            run_once = not run_once
 
         if event == '-button-':
             postcode = sg.popup_get_text(message='Enter a postcode',
