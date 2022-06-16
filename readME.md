@@ -61,5 +61,5 @@ https://github.com/caseytechschool-cts/Python-Club-Term-2-2022/releases/download
 
 1. Exception and error handling
 2. Showing weather forecast
-3. 
+
 [^1]: only for Windows machine
